@@ -1,0 +1,13 @@
+git init
+url del repositorio
+git add .
+git commit -m "comentario"
+git push origin master
+
+git config --global user.email  "correo"
+
+---Actualizar--
+
+git add .
+got commit -m "Comment"
+git push origin master
