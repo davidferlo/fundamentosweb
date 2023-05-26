@@ -1,0 +1,14 @@
+#contImagen{
+    width: 100%;
+    text-align: center;
+    background-color: blue ;
+}
+
+#btnRegistro{
+    width: 8rem;
+    background-color: green;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 10px;
+    cursor: pointer;
+}
