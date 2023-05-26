@@ -17,7 +17,7 @@ h1{
     background-color: blue;
     width: 100vw;
     height: 35vh;
-
+    overflow: hidden;
 }
 
 #cuerpo{
@@ -35,6 +35,8 @@ body{
     width: 50%;
     height: 100%;
     float: left;
+    text-align: center;
+    padding-top: 60px;
 }
 
 #contImagen{
@@ -42,4 +44,14 @@ body{
     width: 50%;
     height: 100%;
     float: right;
+}
+
+#tituloCabecera{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#subtituloCabecera{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
