@@ -1,0 +1,40 @@
+.image{
+    width: 100px;
+    height: 100px;
+}
+
+#img2{
+    position:absolute;
+    bottom: 50px;
+    right: 20px;
+}
+
+#img1{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+#img3{
+    animation: flotar 2s ease-in-out infinite;
+}
+
+@keyframes flotar {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/*
+#img3{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+*/
