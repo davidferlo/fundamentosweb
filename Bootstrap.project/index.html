@@ -25,17 +25,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <!--Call Js folder-->
-    <script src="../Bootstrap.project/functions.js">
-       /** alert("Hola desde el index");**/
-
-    </script>
+    <script src="../Bootstrap.project/functions.js"></script>
+    <script src="./prueba.js"></script>
+    <script> getProducts(); </script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!--BEGIN - Nav Bar Servicios-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Agora Group</a>
+          <a class="navbar-brand" href="#">Agora Group - Ecommerce prueba</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -70,15 +70,27 @@
         </div>
       </nav>
       <!--END NAV-BAR-->
-      <!--CARD-->
-      <div class="card" style="width: 18rem;">
-        <img id="img1" src="https://www.iebschool.com/blog/wp-content/uploads/2019/04/modelos-de-negocios-digitales.jpg" class="card-img-top" alt="img1">
-        <div class="card-body">
-          <h5 class="card-title">Bussines Consultant</h5>
-          <p class="card-text">Let's work. If you want the best web development to your bussines.</p>
-          <a href="#" class="btn btn-primary" onclick="changeImg()"> Reserve</a>
+      <!--HEAD PAGE-->
+      <div id="head">
+        <div id="text">
+          <h1>Welcome</h1>
+          <span> We work for the new continent</span>
         </div>
+
       </div>
+      <!--CARD-->
+      <div id="contImg">
+        <div class="card" style="width: 18rem;">
+          <img id="img1" src="https://www.iebschool.com/blog/wp-content/uploads/2019/04/modelos-de-negocios-digitales.jpg" class="card-img-top" alt="img1">
+          <div class="card-body">
+            <h5 class="card-title">Bussines Consultant</h5>
+            <p class="card-text">Let's work. If you want the best web development to your bussines.</p>
+            <a href="#" class="btn btn-primary" onclick="changeImg()"> Reserve</a>
+          </div>
+        </div>
+
+      </div>
+
 
 </body>
 
