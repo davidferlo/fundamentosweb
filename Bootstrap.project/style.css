@@ -12,8 +12,20 @@
 
 #text{
     color: aliceblue;
-    width: 100%;
+    width: 50%;
     height: 100%;
     text-align: center;
     padding-top: 100px;
+    float: left;
+}
+
+#imgHead{
+    width: 50%;
+    height: 100px;
+    float: right;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 4rem;
 }
